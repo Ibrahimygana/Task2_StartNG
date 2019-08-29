@@ -1,0 +1,107 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#eee
+    ;
+
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    text-align: justify;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-column-gap: 1em;
+}
+
+h3{
+    color:tomato;
+}
+
+
+
+h1{
+    /*animation:type 4s steps(25) infinite;*/
+    font-family: consolas;
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/*
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width:25ch;
+    }
+}
+*/
+
+
+
+div#firstpic img{
+    margin:90px;
+    height:300px;
+    width: auto;
+    border-radius: 8px;
+
+}
+
+.sidebar{
+    margin-top:100px;
+}
+
+
+#socials{
+    padding-top:10px 10px 0 0;
+    margin:0;
+    color:#ffffff;
+
+}
+
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+
+.fa-twitter {
+    
+    color: black;
+}
+
+
+.fa-linkedin {
+    
+    color: black;
+}
+
+.fa-github {
+    
+    color: black;
+}
+
+.fa-medium{
+    
+    color: black;
+}
+
+.fa:hover{
+    color: tomato;
+}
+
